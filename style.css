@@ -179,8 +179,8 @@ main {
 @media screen and (max-width: 600px) {
   main {
     position: absolute;
-    width: 95%;
-    height: 95%;
+    width: 90%;
+    height: 90%;
     justify-content: center;
     align-items: center;
   }
@@ -192,17 +192,28 @@ main {
     font-size: 3rem;
   }
   .btn {
-    padding: 0.7rem 0.5rem;
+    padding: 0.8rem 2rem;
     border-radius: 50rem;
     box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+   
   }
+
+  .btn--new {
+    top: 12rem;
+  }
+
+  .btn--roll {
+    top: 63rem;
+  }
+
+
+  .btn--hold {
+    top: 70rem;
+  }
+
   .current {
-    background-color: #c7365f;
-    opacity: 0.8;
-    border-radius: 9px;
-    color: #fff;
-    width: 65%;
-    padding: 2rem;
+    width: 90%;
+    padding: 1rem;
     text-align: center;
     transition: all 0.75s;
   }
