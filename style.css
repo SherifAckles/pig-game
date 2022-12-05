@@ -171,7 +171,9 @@ main {
 /* -----------Media Query----------- */
 /* MD devices */
 @media screen and (max-width: 1024px) {
-  /* it's good on ipad */
+  main {
+    width: 95%;
+  }
 }
 
 /* SM devices */
