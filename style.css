@@ -169,3 +169,26 @@ main {
 .hidden {
   display: none;
 }
+
+/* -----------Media Query----------- */
+/* MD devices */
+@media screen and (max-width: 1024px) {
+}
+
+/* SM devices */
+@media screen and (max-width: 600px) {
+  main {
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    justify-content: center;
+    align-items: center;
+  }
+  .player {
+    padding: 4rem;
+    flex: 30%;
+  }
+  .name {
+    font-size: 3rem;
+  }
+}
