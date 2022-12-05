@@ -186,9 +186,24 @@ main {
   }
   .player {
     padding: 4rem;
-    flex: 30%;
+    text-align: center;
   }
   .name {
     font-size: 3rem;
+  }
+  .btn {
+    padding: 0.7rem 0.5rem;
+    border-radius: 50rem;
+    box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+  }
+  .current {
+    background-color: #c7365f;
+    opacity: 0.8;
+    border-radius: 9px;
+    color: #fff;
+    width: 65%;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.75s;
   }
 }
